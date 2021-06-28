@@ -100,13 +100,12 @@ p.tag2 {
 }
 
 .text {
-    margin: auto auto 3rem auto;
+    margin: auto auto 0 auto;
     background-color: #4E9525;
     color: #fff;
     text-align: center;
     font-size: 18px;
-    width: 430px;
-    height: 50%;
+    width: 100%;
     padding: 1rem 1rem;
     align-items: center;
 }
@@ -153,7 +152,7 @@ figure {
 }
 
 figure.team figcaption {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     background-color: #fff;
@@ -171,7 +170,7 @@ figure.team figcaption {
 }
 
 figure.farmers figcaption {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     background-color: #fff;
@@ -190,7 +189,7 @@ figure.farmers figcaption {
 }
 
 figure.process figcaption {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     background-color: #fff;
@@ -217,7 +216,7 @@ figure.process figcaption {
     display: block;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    margin-left: 30%;
+    margin-left: 24.5%;
 }
 
 .box1 {
@@ -357,13 +356,14 @@ figure.process figcaption {
     padding-top: 3rem;
     padding-bottom: 3rem;
     display: block;
-    margin-bottom: 1rem;
+    margin: 0;
     height: auto;
+    width: 100%;
 }
 
 .vision {
-    margin: 0rem 5rem 2rem 4rem;
-    width: 350px;
+    margin: 0rem 2rem 2rem 2.3rem;
+    width: 300px;
     height: auto;
     text-align: center;
     background-color: #fff;
@@ -386,8 +386,8 @@ figure.process figcaption {
 }
 
 .mission {
-    margin: 0rem 5rem 0rem 4rem;
-    width: 350px;
+    margin: 0rem 2rem 2rem 2.3rem;
+    width: 300px;
     height: auto;
     text-align: center;
     background-color: #fff;
@@ -458,7 +458,7 @@ figure.process figcaption {
 }
 
 .newsletter-top h3 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
     text-align: center;
     color: #fff;
@@ -477,7 +477,7 @@ figure.process figcaption {
 .input-box {
     display: flex;
     text-align: center;
-    margin-left: 2.5rem;
+    margin-left: 0.7rem;
 }
 
 form input#email {
@@ -490,8 +490,8 @@ form input#email {
 
 i#envelope {
     position: absolute;
-    left: 3.2rem;
-    top: 265.6rem;
+    left: 1.5rem;
+    top: 262.5rem;
     color: #4E9525;
     font-size: 20px;
 }
@@ -510,13 +510,13 @@ form input#email:focus {
 }
 
 input#subscribe {
-    width: 150px;
+    width: 100px;
     height: 52px;
     background-color: #4E9525;
     border: none;
     color: #fff;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 17px;
     margin-left: -0.28rem;
 }
 
